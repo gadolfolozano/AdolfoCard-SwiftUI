@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76A2AB442501C5A200E709A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2AB432501C5A200E709A9 /* AppDelegate.swift */; };
+		76A2AB462501C5A200E709A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2AB452501C5A200E709A9 /* SceneDelegate.swift */; };
+		76A2AB482501C5A200E709A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2AB472501C5A200E709A9 /* ContentView.swift */; };
+		76A2AB4A2501C5A600E709A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A2AB492501C5A600E709A9 /* Assets.xcassets */; };
+		76A2AB4D2501C5A600E709A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A2AB4C2501C5A600E709A9 /* Preview Assets.xcassets */; };
+		76A2AB502501C5A600E709A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A2AB4E2501C5A600E709A9 /* LaunchScreen.storyboard */; };
+		76A2AB5B2501C5A600E709A9 /* AdolfoCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2AB5A2501C5A600E709A9 /* AdolfoCardTests.swift */; };
+		76A2AB662501C5A600E709A9 /* AdolfoCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2AB652501C5A600E709A9 /* AdolfoCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A2AB572501C5A600E709A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A2AB382501C5A200E709A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A2AB3F2501C5A200E709A9;
+			remoteInfo = AdolfoCard;
+		};
+		76A2AB622501C5A600E709A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A2AB382501C5A200E709A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A2AB3F2501C5A200E709A9;
+			remoteInfo = AdolfoCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76A2AB402501C5A200E709A9 /* AdolfoCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdolfoCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A2AB432501C5A200E709A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76A2AB452501C5A200E709A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76A2AB472501C5A200E709A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76A2AB492501C5A600E709A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A2AB4C2501C5A600E709A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76A2AB4F2501C5A600E709A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A2AB512501C5A600E709A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A2AB562501C5A600E709A9 /* AdolfoCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdolfoCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A2AB5A2501C5A600E709A9 /* AdolfoCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdolfoCardTests.swift; sourceTree = "<group>"; };
+		76A2AB5C2501C5A600E709A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A2AB612501C5A600E709A9 /* AdolfoCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdolfoCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A2AB652501C5A600E709A9 /* AdolfoCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdolfoCardUITests.swift; sourceTree = "<group>"; };
+		76A2AB672501C5A600E709A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A2AB3D2501C5A200E709A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A2AB532501C5A600E709A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A2AB5E2501C5A600E709A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A2AB372501C5A200E709A9 = {
+			isa = PBXGroup;
+			children = (
+				76A2AB422501C5A200E709A9 /* AdolfoCard */,
+				76A2AB592501C5A600E709A9 /* AdolfoCardTests */,
+				76A2AB642501C5A600E709A9 /* AdolfoCardUITests */,
+				76A2AB412501C5A200E709A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A2AB412501C5A200E709A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A2AB402501C5A200E709A9 /* AdolfoCard.app */,
+				76A2AB562501C5A600E709A9 /* AdolfoCardTests.xctest */,
+				76A2AB612501C5A600E709A9 /* AdolfoCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A2AB422501C5A200E709A9 /* AdolfoCard */ = {
+			isa = PBXGroup;
+			children = (
+				76A2AB432501C5A200E709A9 /* AppDelegate.swift */,
+				76A2AB452501C5A200E709A9 /* SceneDelegate.swift */,
+				76A2AB472501C5A200E709A9 /* ContentView.swift */,
+				76A2AB492501C5A600E709A9 /* Assets.xcassets */,
+				76A2AB4E2501C5A600E709A9 /* LaunchScreen.storyboard */,
+				76A2AB512501C5A600E709A9 /* Info.plist */,
+				76A2AB4B2501C5A600E709A9 /* Preview Content */,
+			);
+			path = AdolfoCard;
+			sourceTree = "<group>";
+		};
+		76A2AB4B2501C5A600E709A9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				76A2AB4C2501C5A600E709A9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76A2AB592501C5A600E709A9 /* AdolfoCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				76A2AB5A2501C5A600E709A9 /* AdolfoCardTests.swift */,
+				76A2AB5C2501C5A600E709A9 /* Info.plist */,
+			);
+			path = AdolfoCardTests;
+			sourceTree = "<group>";
+		};
+		76A2AB642501C5A600E709A9 /* AdolfoCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76A2AB652501C5A600E709A9 /* AdolfoCardUITests.swift */,
+				76A2AB672501C5A600E709A9 /* Info.plist */,
+			);
+			path = AdolfoCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A2AB3F2501C5A200E709A9 /* AdolfoCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A2AB6A2501C5A600E709A9 /* Build configuration list for PBXNativeTarget "AdolfoCard" */;
+			buildPhases = (
+				76A2AB3C2501C5A200E709A9 /* Sources */,
+				76A2AB3D2501C5A200E709A9 /* Frameworks */,
+				76A2AB3E2501C5A200E709A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdolfoCard;
+			productName = AdolfoCard;
+			productReference = 76A2AB402501C5A200E709A9 /* AdolfoCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A2AB552501C5A600E709A9 /* AdolfoCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A2AB6D2501C5A600E709A9 /* Build configuration list for PBXNativeTarget "AdolfoCardTests" */;
+			buildPhases = (
+				76A2AB522501C5A600E709A9 /* Sources */,
+				76A2AB532501C5A600E709A9 /* Frameworks */,
+				76A2AB542501C5A600E709A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A2AB582501C5A600E709A9 /* PBXTargetDependency */,
+			);
+			name = AdolfoCardTests;
+			productName = AdolfoCardTests;
+			productReference = 76A2AB562501C5A600E709A9 /* AdolfoCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76A2AB602501C5A600E709A9 /* AdolfoCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A2AB702501C5A600E709A9 /* Build configuration list for PBXNativeTarget "AdolfoCardUITests" */;
+			buildPhases = (
+				76A2AB5D2501C5A600E709A9 /* Sources */,
+				76A2AB5E2501C5A600E709A9 /* Frameworks */,
+				76A2AB5F2501C5A600E709A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A2AB632501C5A600E709A9 /* PBXTargetDependency */,
+			);
+			name = AdolfoCardUITests;
+			productName = AdolfoCardUITests;
+			productReference = 76A2AB612501C5A600E709A9 /* AdolfoCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A2AB382501C5A200E709A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = gustavo.lozano;
+				TargetAttributes = {
+					76A2AB3F2501C5A200E709A9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					76A2AB552501C5A600E709A9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 76A2AB3F2501C5A200E709A9;
+					};
+					76A2AB602501C5A600E709A9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 76A2AB3F2501C5A200E709A9;
+					};
+				};
+			};
+			buildConfigurationList = 76A2AB3B2501C5A200E709A9 /* Build configuration list for PBXProject "AdolfoCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A2AB372501C5A200E709A9;
+			productRefGroup = 76A2AB412501C5A200E709A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A2AB3F2501C5A200E709A9 /* AdolfoCard */,
+				76A2AB552501C5A600E709A9 /* AdolfoCardTests */,
+				76A2AB602501C5A600E709A9 /* AdolfoCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A2AB3E2501C5A200E709A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2AB502501C5A600E709A9 /* LaunchScreen.storyboard in Resources */,
+				76A2AB4D2501C5A600E709A9 /* Preview Assets.xcassets in Resources */,
+				76A2AB4A2501C5A600E709A9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A2AB542501C5A600E709A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A2AB5F2501C5A600E709A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A2AB3C2501C5A200E709A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2AB442501C5A200E709A9 /* AppDelegate.swift in Sources */,
+				76A2AB462501C5A200E709A9 /* SceneDelegate.swift in Sources */,
+				76A2AB482501C5A200E709A9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A2AB522501C5A600E709A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2AB5B2501C5A600E709A9 /* AdolfoCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A2AB5D2501C5A600E709A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A2AB662501C5A600E709A9 /* AdolfoCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A2AB582501C5A600E709A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A2AB3F2501C5A200E709A9 /* AdolfoCard */;
+			targetProxy = 76A2AB572501C5A600E709A9 /* PBXContainerItemProxy */;
+		};
+		76A2AB632501C5A600E709A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A2AB3F2501C5A200E709A9 /* AdolfoCard */;
+			targetProxy = 76A2AB622501C5A600E709A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76A2AB4E2501C5A600E709A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A2AB4F2501C5A600E709A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A2AB682501C5A600E709A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76A2AB692501C5A600E709A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A2AB6B2501C5A600E709A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AdolfoCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AdolfoCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.gadolfolfolozano.AdolfoCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A2AB6C2501C5A600E709A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AdolfoCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AdolfoCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.gadolfolfolozano.AdolfoCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76A2AB6E2501C5A600E709A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdolfoCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.gadolfolfolozano.AdolfoCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdolfoCard.app/AdolfoCard";
+			};
+			name = Debug;
+		};
+		76A2AB6F2501C5A600E709A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdolfoCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.gadolfolfolozano.AdolfoCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdolfoCard.app/AdolfoCard";
+			};
+			name = Release;
+		};
+		76A2AB712501C5A600E709A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdolfoCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.gadolfolfolozano.AdolfoCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdolfoCard;
+			};
+			name = Debug;
+		};
+		76A2AB722501C5A600E709A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdolfoCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.gadolfolfolozano.AdolfoCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdolfoCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A2AB3B2501C5A200E709A9 /* Build configuration list for PBXProject "AdolfoCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A2AB682501C5A600E709A9 /* Debug */,
+				76A2AB692501C5A600E709A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A2AB6A2501C5A600E709A9 /* Build configuration list for PBXNativeTarget "AdolfoCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A2AB6B2501C5A600E709A9 /* Debug */,
+				76A2AB6C2501C5A600E709A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A2AB6D2501C5A600E709A9 /* Build configuration list for PBXNativeTarget "AdolfoCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A2AB6E2501C5A600E709A9 /* Debug */,
+				76A2AB6F2501C5A600E709A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A2AB702501C5A600E709A9 /* Build configuration list for PBXNativeTarget "AdolfoCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A2AB712501C5A600E709A9 /* Debug */,
+				76A2AB722501C5A600E709A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A2AB382501C5A200E709A9 /* Project object */;
+}
