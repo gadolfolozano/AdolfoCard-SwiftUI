@@ -15,6 +15,7 @@
 		76A2AB502501C5A600E709A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A2AB4E2501C5A600E709A9 /* LaunchScreen.storyboard */; };
 		76A2AB5B2501C5A600E709A9 /* AdolfoCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2AB5A2501C5A600E709A9 /* AdolfoCardTests.swift */; };
 		76A2AB662501C5A600E709A9 /* AdolfoCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A2AB652501C5A600E709A9 /* AdolfoCardUITests.swift */; };
+		76A2AB742501C5C500E709A9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 76A2AB732501C5C500E709A9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		76A2AB612501C5A600E709A9 /* AdolfoCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdolfoCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A2AB652501C5A600E709A9 /* AdolfoCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdolfoCardUITests.swift; sourceTree = "<group>"; };
 		76A2AB672501C5A600E709A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A2AB732501C5C500E709A9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		76A2AB372501C5A200E709A9 = {
 			isa = PBXGroup;
 			children = (
+				76A2AB732501C5C500E709A9 /* .gitignore */,
 				76A2AB422501C5A200E709A9 /* AdolfoCard */,
 				76A2AB592501C5A600E709A9 /* AdolfoCardTests */,
 				76A2AB642501C5A600E709A9 /* AdolfoCardUITests */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76A2AB742501C5C500E709A9 /* .gitignore in Resources */,
 				76A2AB502501C5A600E709A9 /* LaunchScreen.storyboard in Resources */,
 				76A2AB4D2501C5A600E709A9 /* Preview Assets.xcassets in Resources */,
 				76A2AB4A2501C5A600E709A9 /* Assets.xcassets in Resources */,
